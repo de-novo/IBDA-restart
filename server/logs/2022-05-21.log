@@ -1,0 +1,440 @@
+2022-05-21 20:23:28 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/History/historyRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:17:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:23:47 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:14:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:18:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:23:51 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:14:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:18:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:23:54 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:14:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:18:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:23:58 [express] error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:462:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/History/historyRoute.js:10:9)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:17:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+2022-05-21 20:24:01 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:14:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:18:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:04 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:14:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:18:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:13 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Notice/noticeRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:19:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:21 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Partner/partnerRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:32 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Photo/photoRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:21:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:38 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Plan/planRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:22:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:43 [express] error: uncaughtException: asyncErrorWrapper is not defined
+ReferenceError: asyncErrorWrapper is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Project/projectRoute.js:15:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:23:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:20:32)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 20:24:51 [express] info: ✌️ Express loaded
+2022-05-21 20:24:51 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 20:25:31 [express] info: ✌️ Express loaded
+2022-05-21 20:25:31 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 20:25:53 [express] info: ✌️ Express loaded
+2022-05-21 20:25:53 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 21:15:57 [express] info: ✌️ Express loaded
+2022-05-21 21:15:57 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:43:53 [express] info: ✌️ Express loaded
+2022-05-21 23:43:53 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:46:33 [express] info: ✌️ Express loaded
+2022-05-21 23:46:33 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:46:39 [express] info: ✌️ Express loaded
+2022-05-21 23:46:39 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:46:41 [express] info: ✌️ Express loaded
+2022-05-21 23:46:41 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:47:01 [express] info: ✌️ Express loaded
+2022-05-21 23:47:01 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:47:59 [express] info: ✌️ Express loaded
+2022-05-21 23:47:59 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:48:10 [express] info: ✌️ Express loaded
+2022-05-21 23:48:10 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:48:15 [express] info: ✌️ Express loaded
+2022-05-21 23:48:15 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:48:17 [express] info: ✌️ Express loaded
+2022-05-21 23:48:17 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:48:29 [express] info: ✌️ Express loaded
+2022-05-21 23:48:29 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:49:24 [express] info: ✌️ Express loaded
+2022-05-21 23:49:24 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:49:36 [express] info: ✌️ Express loaded
+2022-05-21 23:49:36 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:50:22 [express] info: ✌️ Express loaded
+2022-05-21 23:50:22 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:50:29 [express] info: ✌️ Express loaded
+2022-05-21 23:50:29 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:50:30 [express] info: ✌️ Express loaded
+2022-05-21 23:50:30 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:52:25 [express] info: ✌️ Express loaded
+2022-05-21 23:52:25 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:53:09 [express] info: ✌️ Express loaded
+2022-05-21 23:53:09 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:53:28 [express] info: ✌️ Express loaded
+2022-05-21 23:53:28 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:53:41 [express] info: ✌️ Express loaded
+2022-05-21 23:53:41 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:53:46 [express] info: ✌️ Express loaded
+2022-05-21 23:53:46 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:57:20 [express] info: ✌️ Express loaded
+2022-05-21 23:57:20 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:57:37 [express] info: ✌️ Express loaded
+2022-05-21 23:57:37 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:57:41 [express] error: uncaughtException: argument hostname is required
+TypeError: argument hostname is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:57:57 [express] error: uncaughtException: argument hostname is required
+TypeError: argument hostname is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:57:58 [express] error: uncaughtException: argument hostname is required
+TypeError: argument hostname is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:01 [express] error: uncaughtException: argument handle is required
+TypeError: argument handle is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:02 [express] error: uncaughtException: argument handle is required
+TypeError: argument handle is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:19 [express] error: uncaughtException: argument handle is required
+TypeError: argument handle is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:28 [express] error: uncaughtException: argument handle is required
+TypeError: argument handle is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:36 [express] info: ✌️ Express loaded
+2022-05-21 23:58:36 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:58:47 [express] info: ✌️ Express loaded
+2022-05-21 23:58:47 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:58:53 [express] error: uncaughtException: argument handle is required
+TypeError: argument handle is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:58:58 [express] error: uncaughtException: argument hostname is required
+TypeError: argument hostname is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:59:00 [express] info: ✌️ Express loaded
+2022-05-21 23:59:00 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:59:06 [express] error: uncaughtException: argument hostname is required
+TypeError: argument hostname is required
+    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-21 23:59:11 [express] info: ✌️ Express loaded
+2022-05-21 23:59:11 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-21 23:59:17 [express] info: ✌️ Express loaded
+2022-05-21 23:59:17 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    

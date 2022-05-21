@@ -1,0 +1,147 @@
+{
+  error: RangeError [ERR_SOCKET_BAD_PORT]: options.port should be >= 0 and < 65536. Received NaN.
+      at new NodeError (node:internal/errors:372:5)
+      at validatePort (node:internal/validators:217:11)
+      at Server.listen (node:net:1459:5)
+      at Function.listen (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:635:24)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:11:6
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12) {
+    code: 'ERR_SOCKET_BAD_PORT'
+  },
+  level: 'error',
+  message: 'uncaughtException: options.port should be >= 0 and < 65536. Received NaN.\n' +
+    'RangeError [ERR_SOCKET_BAD_PORT]: options.port should be >= 0 and < 65536. Received NaN.\n' +
+    '    at new NodeError (node:internal/errors:372:5)\n' +
+    '    at validatePort (node:internal/validators:217:11)\n' +
+    '    at Server.listen (node:net:1459:5)\n' +
+    '    at Function.listen (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:635:24)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:11:6\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'RangeError [ERR_SOCKET_BAD_PORT]: options.port should be >= 0 and < 65536. Received NaN.\n' +
+    '    at new NodeError (node:internal/errors:372:5)\n' +
+    '    at validatePort (node:internal/validators:217:11)\n' +
+    '    at Server.listen (node:net:1459:5)\n' +
+    '    at Function.listen (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:635:24)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:11:6\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 16 2022 22:00:20 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 4872,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62423040,
+      heapTotal: 18464768,
+      heapUsed: 12974096,
+      external: 1419649,
+      arrayBuffers: 444445
+    }
+  },
+  os: {
+    loadavg: [ 6.33203125, 3.5517578125, 2.61328125 ],
+    uptime: 1918198
+  },
+  trace: [
+    {
+      column: 5,
+      file: 'node:internal/errors',
+      function: 'new NodeError',
+      line: 372,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:internal/validators',
+      function: 'validatePort',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1459,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 6,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-16 22:00:20'
+}

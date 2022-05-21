@@ -4,7 +4,9 @@ import cors from "cors";
 import compression from "compression";
 import methodOverride from "method-override";
 
-import routes from "../src/app/index.js";
+import apiRoutes from "../src/app/apiRoute.js";
+import adminRoutes from "../src/app/adminRoute.js";
+import vhost from "vhost";
 
 export default (app) => {
     app.use(compression());
@@ -16,6 +18,8 @@ export default (app) => {
     app.use(methodOverride());
 
     app.use(cors());
-
-    app.use(config.api.prefix, routes());
+    
+    app.use(vhost(`admin.${config.DOMAIN}`,adminRoutes()))
+    // app.use(vhost(`*.${config.DOMAIN}`,apiRoutes()));
+    app.use(apiRoutes())
 };

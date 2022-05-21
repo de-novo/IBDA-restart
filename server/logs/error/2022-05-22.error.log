@@ -1,0 +1,3661 @@
+{
+  error: TypeError: Router.use() requires a middleware function
+      at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:462:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function\n' +
+    'TypeError: Router.use() requires a middleware function\n' +
+    '    at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:462:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: Router.use() requires a middleware function\n' +
+    '    at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:462:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:07:56 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29856,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 61341696,
+      heapTotal: 18268160,
+      heapUsed: 12947144,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: { loadavg: [ 1.244140625, 1.578125, 1.6962890625 ], uptime: 2357851 },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 462,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:07:56'
+}
+{
+  error: ReferenceError: vhost is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: vhost is not defined\n' +
+    'ReferenceError: vhost is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: vhost is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:07:59 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29874,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 60604416,
+      heapTotal: 18464768,
+      heapUsed: 13111896,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: { loadavg: [ 1.244140625, 1.578125, 1.6962890625 ], uptime: 2357854 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:07:59'
+}
+{
+  error: ReferenceError: vhost is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: vhost is not defined\n' +
+    'ReferenceError: vhost is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: vhost is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:00 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29880,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 61898752,
+      heapTotal: 18464768,
+      heapUsed: 13029680,
+      external: 1436033,
+      arrayBuffers: 460829
+    }
+  },
+  os: {
+    loadavg: [ 1.14404296875, 1.5517578125, 1.68603515625 ],
+    uptime: 2357855
+  },
+  trace: [
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:00'
+}
+{
+  error: TypeError: argument hostname is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: argument hostname is required\n' +
+    'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:12 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29904,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62242816,
+      heapTotal: 18268160,
+      heapUsed: 12965256,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 1.20166015625, 1.5498046875, 1.68310546875 ],
+    uptime: 2357867
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:12'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:27 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29923,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 59850752,
+      heapTotal: 18268160,
+      heapUsed: 12954008,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: { loadavg: [ 1.390625, 1.57177734375, 1.6875 ], uptime: 2357882 },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:27'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:31 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29934,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62357504,
+      heapTotal: 18268160,
+      heapUsed: 13038040,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 1.35888671875, 1.56201171875, 1.68310546875 ],
+    uptime: 2357886
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:31'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:33 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29939,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62275584,
+      heapTotal: 18268160,
+      heapUsed: 13037936,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 1.35888671875, 1.56201171875, 1.68310546875 ],
+    uptime: 2357888
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:33'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:8:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)',
+  exception: true,
+  date: 'Sun May 22 2022 00:08:40 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 29962,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 63012864,
+      heapTotal: 18268160,
+      heapUsed: 13038072,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 1.537109375, 1.59228515625, 1.69189453125 ],
+    uptime: 2357895
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:08:40'
+}
+{
+  error: TypeError: app.route.get is not a function
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: app.route.get is not a function\n' +
+    'TypeError: app.route.get is not a function\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: app.route.get is not a function\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:09:35 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30046,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62521344,
+      heapTotal: 18268160,
+      heapUsed: 13039080,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 2.0302734375, 1.72802734375, 1.73583984375 ],
+    uptime: 2357950
+  },
+  trace: [
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/index.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:09:35'
+}
+{
+  error: ReferenceError: routes is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: routes is not defined\n' +
+    'ReferenceError: routes is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: routes is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:11:45 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30199,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 61603840,
+      heapTotal: 18530304,
+      heapUsed: 12879520,
+      external: 1436033,
+      arrayBuffers: 460829
+    }
+  },
+  os: {
+    loadavg: [ 2.173828125, 1.88623046875, 1.79150390625 ],
+    uptime: 2358080
+  },
+  trace: [
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:11:45'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:11:58 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30243,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62554112,
+      heapTotal: 18530304,
+      heapUsed: 13052944,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 1.83935546875, 1.82568359375, 1.77099609375 ],
+    uptime: 2358093
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:11:58'
+}
+{
+  error: ReferenceError: historyRoute is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:19:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: historyRoute is not defined\n' +
+    'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:19:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:19:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:13:26 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30396,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62144512,
+      heapTotal: 18464768,
+      heapUsed: 12961296,
+      external: 1419649,
+      arrayBuffers: 444445
+    }
+  },
+  os: {
+    loadavg: [ 1.8994140625, 1.88671875, 1.798828125 ],
+    uptime: 2358181
+  },
+  trace: [
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js',
+      function: 'default',
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:13:26'
+}
+{
+  error: ReferenceError: historyRoute is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: historyRoute is not defined\n' +
+    'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:13:28 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30415,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 60276736,
+      heapTotal: 18530304,
+      heapUsed: 13021016,
+      external: 1457918,
+      arrayBuffers: 482714
+    }
+  },
+  os: {
+    loadavg: [ 1.9072265625, 1.88818359375, 1.7998046875 ],
+    uptime: 2358183
+  },
+  trace: [
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js',
+      function: 'default',
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:13:28'
+}
+{
+  error: ReferenceError: historyRoute is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: historyRoute is not defined\n' +
+    'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:13:33 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30428,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62406656,
+      heapTotal: 18792448,
+      heapUsed: 13153280,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: {
+    loadavg: [ 1.75439453125, 1.8564453125, 1.7890625 ],
+    uptime: 2358188
+  },
+  trace: [
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js',
+      function: 'default',
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:13:33'
+}
+{
+  error: ReferenceError: historyRoute is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: historyRoute is not defined\n' +
+    'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: historyRoute is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js:14:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:13:38 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30439,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 61489152,
+      heapTotal: 18530304,
+      heapUsed: 13037128,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: {
+    loadavg: [ 1.93408203125, 1.8916015625, 1.8017578125 ],
+    uptime: 2358193
+  },
+  trace: [
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/apiRoute.js',
+      function: 'default',
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:13:38'
+}
+{
+  error: ReferenceError: v is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: v is not defined\n' +
+    'ReferenceError: v is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: v is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:15:43 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30627,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 63422464,
+      heapTotal: 18268160,
+      heapUsed: 13032888,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 2.54833984375, 2.15478515625, 1.91455078125 ],
+    uptime: 2358318
+  },
+  trace: [
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:15:43'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:15:45 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30632,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 59817984,
+      heapTotal: 18530304,
+      heapUsed: 13129008,
+      external: 1466110,
+      arrayBuffers: 490906
+    }
+  },
+  os: {
+    loadavg: [ 2.54833984375, 2.15478515625, 1.91455078125 ],
+    uptime: 2358320
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:15:45'
+}
+{
+  error: TypeError: argument hostname is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument hostname is required\n' +
+    'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:15:47 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30637,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 59129856,
+      heapTotal: 18530304,
+      heapUsed: 13135160,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: {
+    loadavg: [ 2.42431640625, 2.13525390625, 1.9091796875 ],
+    uptime: 2358322
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:15:47'
+}
+{
+  error: ReferenceError: co is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: co is not defined\n' +
+    'ReferenceError: co is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: co is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:15:53 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30660,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 59359232,
+      heapTotal: 18268160,
+      heapUsed: 13031992,
+      external: 1458163,
+      arrayBuffers: 482959
+    }
+  },
+  os: {
+    loadavg: [ 2.22998046875, 2.099609375, 1.89794921875 ],
+    uptime: 2358328
+  },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:15:53'
+}
+{
+  error: TypeError: argument hostname is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument hostname is required\n' +
+    'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:15:55 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30664,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 60735488,
+      heapTotal: 18268160,
+      heapUsed: 12932000,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: {
+    loadavg: [ 2.22998046875, 2.099609375, 1.89794921875 ],
+    uptime: 2358330
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:15:55'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:17:23 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30829,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62816256,
+      heapTotal: 18268160,
+      heapUsed: 13052408,
+      external: 1449971,
+      arrayBuffers: 474767
+    }
+  },
+  os: {
+    loadavg: [ 1.9833984375, 2.12353515625, 1.9287109375 ],
+    uptime: 2358418
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:17:23'
+}
+{
+  error: TypeError: argument hostname is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument hostname is required\n' +
+    'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:19:16 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30979,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 60669952,
+      heapTotal: 18268160,
+      heapUsed: 13205288,
+      external: 1542829,
+      arrayBuffers: 567625
+    }
+  },
+  os: {
+    loadavg: [ 2.22021484375, 2.21044921875, 1.98681640625 ],
+    uptime: 2358531
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:19:16'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:19:18 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 30995,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 59670528,
+      heapTotal: 18268160,
+      heapUsed: 13139528,
+      external: 1500522,
+      arrayBuffers: 525318
+    }
+  },
+  os: {
+    loadavg: [ 2.0419921875, 2.17333984375, 1.97509765625 ],
+    uptime: 2358533
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:19:18'
+}
+{
+  error: TypeError: argument hostname is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument hostname is required\n' +
+    'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument hostname is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:39:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:19:29 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 31026,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 61538304,
+      heapTotal: 18268160,
+      heapUsed: 13213304,
+      external: 1506857,
+      arrayBuffers: 531653
+    }
+  },
+  os: {
+    loadavg: [ 1.8076171875, 2.1181640625, 1.95751953125 ],
+    uptime: 2358544
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:19:29'
+}
+{
+  error: ReferenceError: vhostapiRoutes is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: vhostapiRoutes is not defined\n' +
+    'ReferenceError: vhostapiRoutes is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: vhostapiRoutes is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:22:30 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 31196,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62046208,
+      heapTotal: 18530304,
+      heapUsed: 13249784,
+      external: 1500522,
+      arrayBuffers: 525318
+    }
+  },
+  os: {
+    loadavg: [ 2.04150390625, 2.13232421875, 1.990234375 ],
+    uptime: 2358725
+  },
+  trace: [
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:22:30'
+}
+{
+  error: TypeError: argument handle is required
+      at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: argument handle is required\n' +
+    'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: argument handle is required\n' +
+    '    at vhost (/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js:43:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:22:13)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:22:34 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 31214,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 63307776,
+      heapTotal: 18530304,
+      heapUsed: 13165896,
+      external: 1492330,
+      arrayBuffers: 517126
+    }
+  },
+  os: { loadavg: [ 1.9580078125, 2.11328125, 1.984375 ], uptime: 2358729 },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/vhost/index.js',
+      function: 'vhost',
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:22:34'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:217:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:217:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:217:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:21:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sun May 22 2022 00:25:25 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 31285,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 62128128,
+      heapTotal: 18530304,
+      heapUsed: 13184944,
+      external: 1500522,
+      arrayBuffers: 525318
+    }
+  },
+  os: {
+    loadavg: [ 1.1865234375, 1.75244140625, 1.859375 ],
+    uptime: 2358900
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-22 00:25:25'
+}

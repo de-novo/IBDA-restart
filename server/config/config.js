@@ -12,8 +12,8 @@ export default {
     // MongoDB URL
     DB_URL: process.env.DB_URL,
 
-
-    // mysql 
+    DOMAIN: "denovo.com",
+    // mysql
     DB_HOST: process.env.DB_HOST,
     DB_USER: process.env.DB_USER,
     DB_PORT: process.env.DB_PORT,
@@ -21,7 +21,10 @@ export default {
     DB: process.env.DB,
     //  API config
     api: {
-        prefix: "/api",
+        prefix: "api",
+    },
+    admin: {
+        prefix: "admin",
     },
 
     // JWT Secret

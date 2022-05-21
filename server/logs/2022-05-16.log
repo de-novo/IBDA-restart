@@ -1,0 +1,25 @@
+2022-05-16 22:00:20 [express] info: ✌️ Express loaded
+2022-05-16 22:00:20 [express] error: uncaughtException: options.port should be >= 0 and < 65536. Received NaN.
+RangeError [ERR_SOCKET_BAD_PORT]: options.port should be >= 0 and < 65536. Received NaN.
+    at new NodeError (node:internal/errors:372:5)
+    at validatePort (node:internal/validators:217:11)
+    at Server.listen (node:net:1459:5)
+    at Function.listen (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/application.js:635:24)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:11:6
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-16 22:00:34 [express] info: ✌️ Express loaded
+2022-05-16 22:00:34 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-16 22:00:34 [express] info: ✌️ Express loaded
+2022-05-16 22:00:34 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
