@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 
-import memberAdminRoute from "./Member/memberAdminRoute.js";
+import memberAdminRoute from "./Member/memberRoute.admin.js";
 
 export default () => {
     const app = Router();

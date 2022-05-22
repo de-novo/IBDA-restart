@@ -18,8 +18,13 @@ export default (app) => {
     app.use(methodOverride());
 
     app.use(cors());
-    
-    app.use(vhost(`admin.${config.DOMAIN}`,adminRoutes()))
-    // app.use(vhost(`*.${config.DOMAIN}`,apiRoutes()));
-    app.use(apiRoutes())
+    if (config.MODE === "production") {
+        app.use(vhost(`admin.${config.DOMAIN}`, adminRoutes()));
+        // app.use(vhost(`*.${config.DOMAIN}`,apiRoutes()));
+        app.use(apiRoutes());
+    } else if (config.MODE === "development") {
+        app.use(vhost(`dev.admin.${config.DOMAIN}`, adminRoutes()));
+        app.use(vhost(`dev.${config.DOMAIN}`, apiRoutes()));
+        app.use(apiRoutes());
+    }
 };
