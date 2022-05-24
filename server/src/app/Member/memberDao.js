@@ -3,10 +3,8 @@ import baseRsponseStatus from "../../../config/baseRsponseStatus.js";
 
 // 모든 유저 조회
 async function creatMember(connection, creatMemberParams) {
-
-
     const selectUserListQuery = `
-                INSERT INTO Member SET ?
+                INSERT INTO member SET ?
                 `;
     const [userRows] = await connection.query(
         selectUserListQuery,
