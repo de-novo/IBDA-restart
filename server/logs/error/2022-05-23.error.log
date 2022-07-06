@@ -1,0 +1,2774 @@
+{
+  error: ReferenceError: admin is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: admin is not defined\n' +
+    'ReferenceError: admin is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: admin is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:43:08 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44403,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 68304896,
+      heapTotal: 21676032,
+      heapUsed: 13899544,
+      external: 1282534,
+      arrayBuffers: 154769
+    }
+  },
+  os: {
+    loadavg: [ 2.71484375, 3.2626953125, 2.97607421875 ],
+    uptime: 2525562
+  },
+  trace: [
+    {
+      column: 45,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:43:08'
+}
+{
+  error: ReferenceError: admin is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: admin is not defined\n' +
+    'ReferenceError: admin is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: admin is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:43:13 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44418,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 68534272,
+      heapTotal: 21413888,
+      heapUsed: 14053776,
+      external: 1285348,
+      arrayBuffers: 157583
+    }
+  },
+  os: {
+    loadavg: [ 2.4970703125, 3.20849609375, 2.95849609375 ],
+    uptime: 2525567
+  },
+  trace: [
+    {
+      column: 45,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:43:13'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:43:24 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44439,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 69156864,
+      heapTotal: 21676032,
+      heapUsed: 14077944,
+      external: 1282532,
+      arrayBuffers: 154767
+    }
+  },
+  os: {
+    loadavg: [ 2.19287109375, 3.11865234375, 2.92919921875 ],
+    uptime: 2525578
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:43:24'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:43:48 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44463,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66650112,
+      heapTotal: 21413888,
+      heapUsed: 14013816,
+      external: 1282534,
+      arrayBuffers: 154769
+    }
+  },
+  os: {
+    loadavg: [ 4.4765625, 3.60009765625, 3.1083984375 ],
+    uptime: 2525602
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:43:48'
+}
+{
+  error: ReferenceError: validation is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: validation is not defined\n' +
+    'ReferenceError: validation is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: validation is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:44:18 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44488,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66486272,
+      heapTotal: 21413888,
+      heapUsed: 13945664,
+      external: 1282534,
+      arrayBuffers: 154769
+    }
+  },
+  os: {
+    loadavg: [ 3.9111328125, 3.55517578125, 3.1083984375 ],
+    uptime: 2525632
+  },
+  trace: [
+    {
+      column: 21,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:44:18'
+}
+{
+  error: ReferenceError: validation is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: validation is not defined\n' +
+    'ReferenceError: validation is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: validation is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:44:19 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44503,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67715072,
+      heapTotal: 21151744,
+      heapUsed: 13933304,
+      external: 1274342,
+      arrayBuffers: 146577
+    }
+  },
+  os: {
+    loadavg: [ 3.9111328125, 3.55517578125, 3.1083984375 ],
+    uptime: 2525633
+  },
+  trace: [
+    {
+      column: 21,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:44:19'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:44:23 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44516,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67305472,
+      heapTotal: 21151744,
+      heapUsed: 14198352,
+      external: 1286639,
+      arrayBuffers: 158874
+    }
+  },
+  os: {
+    loadavg: [ 3.837890625, 3.5458984375, 3.107421875 ],
+    uptime: 2525637
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:44:23'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:44:43 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44550,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66486272,
+      heapTotal: 21413888,
+      heapUsed: 14041560,
+      external: 1285355,
+      arrayBuffers: 157590
+    }
+  },
+  os: {
+    loadavg: [ 3.8271484375, 3.57177734375, 3.126953125 ],
+    uptime: 2525657
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:44:43'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:44:45 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44555,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66617344,
+      heapTotal: 21151744,
+      heapUsed: 14075200,
+      external: 1282534,
+      arrayBuffers: 154769
+    }
+  },
+  os: {
+    loadavg: [ 3.7607421875, 3.56201171875, 3.1259765625 ],
+    uptime: 2525659
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:44:45'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:45:15 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44588,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 68976640,
+      heapTotal: 21676032,
+      heapUsed: 14069832,
+      external: 1282951,
+      arrayBuffers: 155186
+    }
+  },
+  os: {
+    loadavg: [ 4.07421875, 3.638671875, 3.1669921875 ],
+    uptime: 2525689
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:45:15'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:45:30 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 44616,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67354624,
+      heapTotal: 21938176,
+      heapUsed: 14140496,
+      external: 1286642,
+      arrayBuffers: 158877
+    }
+  },
+  os: {
+    loadavg: [ 3.79931640625, 3.591796875, 3.15771484375 ],
+    uptime: 2525704
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:45:30'
+}
+{
+  error: ReferenceError: eg_name is not defined
+      at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:34:34)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)
+      at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: eg_name is not defined\n' +
+    'ReferenceError: eg_name is not defined\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:34:34)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)',
+  stack: 'ReferenceError: eg_name is not defined\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:34:34)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:52:01 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45141,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 69681152,
+      heapTotal: 30064640,
+      heapUsed: 11934184,
+      external: 1272429,
+      arrayBuffers: 128390
+    }
+  },
+  os: {
+    loadavg: [ 4.6767578125, 3.916015625, 3.4248046875 ],
+    uptime: 2526095
+  },
+  trace: [
+    {
+      column: 34,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js',
+      function: 'creatMemberValidataion',
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:52:01'
+}
+{
+  error: ReferenceError: eg_name is not defined
+      at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:35:34)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)
+      at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: eg_name is not defined\n' +
+    'ReferenceError: eg_name is not defined\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:35:34)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)',
+  stack: 'ReferenceError: eg_name is not defined\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:35:34)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)\n' +
+    '    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:53:06 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45184,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 70844416,
+      heapTotal: 30064640,
+      heapUsed: 11952232,
+      external: 1272429,
+      arrayBuffers: 128390
+    }
+  },
+  os: {
+    loadavg: [ 3.91845703125, 3.8251953125, 3.42529296875 ],
+    uptime: 2526160
+  },
+  trace: [
+    {
+      column: 34,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js',
+      function: 'creatMemberValidataion',
+      line: 35,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:53:06'
+}
+{
+  error: ReferenceError: memberService is not defined
+      at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12),
+  level: 'error',
+  message: 'uncaughtException: memberService is not defined\n' +
+    'ReferenceError: memberService is not defined\n' +
+    '    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)',
+  stack: 'ReferenceError: memberService is not defined\n' +
+    '    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:53:39 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45233,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 73007104,
+      heapTotal: 30588928,
+      heapUsed: 11984144,
+      external: 1272429,
+      arrayBuffers: 128390
+    }
+  },
+  os: {
+    loadavg: [ 3.38623046875, 3.71044921875, 3.39697265625 ],
+    uptime: 2526193
+  },
+  trace: [
+    {
+      column: 37,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js',
+      function: 'creatMember',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js',
+      function: 'creatMemberValidataion',
+      line: 58,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:53:39'
+}
+{
+  error: ReferenceError: memberService is not defined
+      at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+      at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12),
+  level: 'error',
+  message: 'uncaughtException: memberService is not defined\n' +
+    'ReferenceError: memberService is not defined\n' +
+    '    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)',
+  stack: 'ReferenceError: memberService is not defined\n' +
+    '    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)\n' +
+    '    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:53:47 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45249,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 71303168,
+      heapTotal: 30326784,
+      heapUsed: 12058952,
+      external: 1272429,
+      arrayBuffers: 128390
+    }
+  },
+  os: {
+    loadavg: [ 3.09228515625, 3.63671875, 3.37451171875 ],
+    uptime: 2526201
+  },
+  trace: [
+    {
+      column: 37,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js',
+      function: 'creatMember',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js',
+      function: 'creatMemberValidataion',
+      line: 58,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:53:47'
+}
+{
+  message: 'App - creatMember Service error\n' +
+    ' : Cannot add or update a child row: a foreign key constraint fails (`IBDA_DEV`.`member`, CONSTRAINT `FK_Member_roleIdx_role_roleIdx` FOREIGN KEY (`roleIdx`) REFERENCES `role` (`roleIdx`) ON DELETE RESTRICT ON UPDATE RESTRICT)',
+  level: 'error',
+  timestamp: '2022-05-23 22:55:00'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+      at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)',
+  exception: true,
+  date: 'Mon May 23 2022 22:57:11 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45518,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67420160,
+      heapTotal: 21413888,
+      heapUsed: 13950888,
+      external: 1282534,
+      arrayBuffers: 154769
+    }
+  },
+  os: {
+    loadavg: [ 2.73388671875, 3.32568359375, 3.3134765625 ],
+    uptime: 2526405
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 211,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 521,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:57:11'
+}
+{
+  error: ReferenceError: adminController is not defined
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:16:9)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+      at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+      at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: adminController is not defined\n' +
+    'ReferenceError: adminController is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:16:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: adminController is not defined\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:16:9)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)\n' +
+    '    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:57:13 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45524,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 68583424,
+      heapTotal: 21413888,
+      heapUsed: 14040672,
+      external: 1286639,
+      arrayBuffers: 158874
+    }
+  },
+  os: {
+    loadavg: [ 2.73388671875, 3.32568359375, 3.3134765625 ],
+    uptime: 2526407
+  },
+  trace: [
+    {
+      column: 9,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js',
+      function: 'default',
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js',
+      function: 'default',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 53,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/express.js',
+      function: 'default',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/config/loader.js',
+      function: 'default',
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/server.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:57:13'
+}
+{
+  error: ReferenceError: adminService is not defined
+      at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: adminService is not defined\n' +
+    'ReferenceError: adminService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: adminService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:57:50 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45584,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 69124096,
+      heapTotal: 21413888,
+      heapUsed: 13812608,
+      external: 1284854,
+      arrayBuffers: 157089
+    }
+  },
+  os: {
+    loadavg: [ 4.04150390625, 3.60009765625, 3.4140625 ],
+    uptime: 2526444
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:57:50'
+}
+{
+  error: ReferenceError: adminService is not defined
+      at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: adminService is not defined\n' +
+    'ReferenceError: adminService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: adminService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:57:54 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45596,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66502656,
+      heapTotal: 21413888,
+      heapUsed: 13923632,
+      external: 1287056,
+      arrayBuffers: 159291
+    }
+  },
+  os: {
+    loadavg: [ 3.7177734375, 3.5400390625, 3.39404296875 ],
+    uptime: 2526448
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:57:54'
+}
+{
+  error: ReferenceError: apiService is not defined
+      at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:25
+      at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: apiService is not defined\n' +
+    'ReferenceError: apiService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:25\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: apiService is not defined\n' +
+    '    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:25\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon May 23 2022 22:57:57 GMT+0900 (대한민국 표준시)',
+  process: {
+    pid: 45614,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/denovo/Desktop/project/ibda/server',
+    execPath: '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+    version: 'v17.6.0',
+    argv: [
+      '/Users/denovo/.nvm/versions/node/v17.6.0/bin/node',
+      '/Users/denovo/Desktop/project/ibda/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 68403200,
+      heapTotal: 21676032,
+      heapUsed: 13808208,
+      external: 1274342,
+      arrayBuffers: 146577
+    }
+  },
+  os: {
+    loadavg: [ 3.419921875, 3.48095703125, 3.3740234375 ],
+    uptime: 2526451
+  },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 197,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 341,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-05-23 22:57:57'
+}

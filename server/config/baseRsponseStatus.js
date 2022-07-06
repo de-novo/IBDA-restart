@@ -18,154 +18,107 @@ export default {
         code: 1001,
         message: "JWT 토큰 검증 성공",
     }, // ?
+    BODY_PROPERTY_NAME_ERREOR: {
+        isSuccess: false,
+        code: 2999,
+        message: "요청 객체 이름을 확인해주세요",
+    },
 
     //Request error
-    SIGNUP_EMAIL_EMPTY: {
+
+    MEMBER_NAME_EMPTY: {
         isSuccess: false,
         code: 2001,
-        message: "이메일을 입력해주세요",
+        message: "새로운 멤버의 이름을 입력해주세요",
     },
-    SIGNUP_EMAIL_LENGTH: {
+    MEMBER_NAME_LENGTH: {
         isSuccess: false,
         code: 2002,
-        message: "이메일은 30자리 미만으로 입력해주세요.",
+        message: "멤버의 이름을 2글자 이상으로 입력해주세요",
     },
-    SIGNUP_EMAIL_ERROR_TYPE: {
+    MEMBER_NAME_TYPEERROR: {
         isSuccess: false,
         code: 2003,
-        message: "이메일을 형식을 정확하게 입력해주세요.",
+        message: "이름은 한글로 입력해주세요.",
     },
-    SIGNUP_PASSWORD_EMPTY: {
+
+    MEMBER_EG_NAME_EMPTY: {
         isSuccess: false,
         code: 2004,
-        message: "비밀번호를 입력 해주세요.",
+        message: "멤버의 영어이름을 입력해주세요",
     },
-    SIGNUP_PASSWORD_LENGTH: {
+    MEMBER_EG_NAME_LENGTH: {
         isSuccess: false,
         code: 2005,
-        message: "비밀번호는 6~20자리를 입력해주세요.",
+        message: "멤버의 영어이름은 3글자 이상으로 입력해주세요",
     },
-    SIGNUP_NICKNAME_EMPTY: {
+    MEMBER_EG_NAME_TYPEERROR: {
         isSuccess: false,
         code: 2006,
-        message: "닉네임을 입력 해주세요.",
+        message: "영어이름은 영어로 입력해주세요",
     },
-    SIGNUP_NICKNAME_LENGTH: {
+    MEMBER_ROLEIDX_EMPTY: {
         isSuccess: false,
         code: 2007,
-        message: "닉네임은 최대 20자리를 입력해주세요.",
+        message: "멤버의 역할을 선택해주세요",
     },
-
-    SIGNIN_EMAIL_EMPTY: {
+    MEMBER_SUBSCRIPTION_EMPTY: {
         isSuccess: false,
         code: 2008,
-        message: "이메일을 입력해주세요",
+        message: "멤버의 가입년도를 입력해주세요",
     },
-    SIGNIN_EMAIL_LENGTH: {
+    MEMBER_MBMBERIDX_NOT_EXIST: {
         isSuccess: false,
         code: 2009,
-        message: "이메일은 30자리 미만으로 입력해주세요.",
+        message: "존재하지 않는 멤버입니다. 다시 확인해주세요.",
     },
-    SIGNIN_EMAIL_ERROR_TYPE: {
+    MEMBER_MBMBERIDX_ERROR: {
         isSuccess: false,
         code: 2010,
-        message: "이메일을 형식을 정확하게 입력해주세요.",
+        message: "1이상의 memberIdx를 입력해주세요. ",
     },
-    SIGNIN_PASSWORD_EMPTY: {
+    MEMBER_MBMBERIDX_EMPTY: {
         isSuccess: false,
         code: 2011,
-        message: "비밀번호를 입력 해주세요.",
+        message: "memberIdx를 입력해주세요. ",
     },
-
-    USER_USERID_EMPTY: {
-        isSuccess: false,
-        code: 2012,
-        message: "userId를 입력해주세요.",
-    },
-    USER_USERID_NOT_EXIST: {
-        isSuccess: false,
-        code: 2013,
-        message: "해당 회원이 존재하지 않습니다.",
-    },
-
-    USER_USEREMAIL_EMPTY: {
+    MEMBER_CANT_EDIT_STATUS: {
         isSuccess: false,
         code: 2014,
-        message: "이메일을 입력해주세요.",
+        message: "멤버 정보 수정 API는 status값에 접근 불가능 합니다.",
     },
-    USER_USEREMAIL_NOT_EXIST: {
+    MEMBER_STATUS_EMPTY: {
         isSuccess: false,
-        code: 2015,
-        message: "해당 이메일을 가진 회원이 존재하지 않습니다.",
+        code: 2013,
+        message: "status를 입력해주세요",
     },
-    USER_ID_NOT_MATCH: {
+    MEMBER_STATUS_TYPEERROR: {
         isSuccess: false,
-        code: 2016,
-        message: "유저 아이디 값을 확인해주세요",
-    },
-    USER_NICKNAME_EMPTY: {
-        isSuccess: false,
-        code: 2017,
-        message: "변경할 닉네임 값을 입력해주세요",
+        code: 2014,
+        message: "status값은 ACTIVE, INACTIVED, DELETED중 하나를 입력해주세요.",
     },
 
-    USER_STATUS_EMPTY: {
-        isSuccess: false,
-        code: 2018,
-        message: "회원 상태값을 입력해주세요",
-    },
-
-    USER_USERIDX_EMPTY: {
+    MEMBER_BIRTH_EMPTY: {
         isSuccess: false,
         code: 2019,
-        message: "userIdx를 입력해주세요.",
-    },
-    USER_USERIDX_LENGTH: {
-        isSuccess: false,
-        code: 2020,
-        message: "userIdx는 0보다 큰 값으로 입력해주세요.",
+        message: "멤버의 생일을 입력해주세요",
     },
 
-    POST_POSTIMGURLS_EMPTY: {
+    MEMBER_CANNOT_MODIFEIED: {
         isSuccess: false,
-        code: 2021,
-        message: "한개 이상의 이미지를 입력해주세요 .",
-    },
-    POST_POSTIDX_EMPTY: {
-        isSuccess: false,
-        code: 2022,
-        message: "postIdx를 입력해주세요 .",
-    },
-    POST_CONTENT_EMPTY: {
-        isSuccess: false,
-        code: 2023,
-        message: "content를 입력해주세요 .",
-    },
-    POST_CONTENT_LENGTH: {
-        isSuccess: false,
-        code: 2024,
-        message: "content가 너무 깁니다. .",
-    },
-    POST_POSTIDX_LENGTH: {
-        isSuccess: false,
-        code: 2025,
-        message: "1이상의 postIdx를 입력해주세요. .",
-    },
-    POST_STATUS_INACTIVE: {
-        isSuccess: false,
-        code: 2026,
-        message: "이미 삭제된 게시물입니다.",
+        code: 2998,
+        message: "수정불가한 멤버입니다. 개발자에게 문의해주세요",
     },
     // Response error
-    SIGNUP_REDUNDANT_EMAIL: {
+    MEMBER_INACTIVE_ACCOUNT: {
         isSuccess: false,
         code: 3001,
-        message: "중복된 이메일입니다.",
+        message: "비활성화된 멤버입니다. 활성화후 시도해주세요.",
     },
-    SIGNUP_REDUNDANT_NICKNAME: {
+    MEMBER_DELETED_ACCOUNT: {
         isSuccess: false,
         code: 3002,
-        message: "중복된 닉네임입니다.",
+        message: "삭제된 멤버입니다. 복구를 원할시 개발자에게 문의하세요",
     },
 
     SIGNIN_EMAIL_WRONG: {

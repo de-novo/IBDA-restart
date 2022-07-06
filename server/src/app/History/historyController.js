@@ -3,5 +3,5 @@ import baseRsponseStatus from "../../../config/baseRsponseStatus.js";
 
 
 
-exports.functionName = async function (req, res) {
+export const functionName = async function (req, res) {
 }

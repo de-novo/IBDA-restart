@@ -8,6 +8,7 @@ if (envFound.error) {
 }
 
 export default {
+    MODE: process.env.NODE_ENV,
     port: parseInt(process.env.PORT, 10),
     // MongoDB URL
     DB_URL: process.env.DB_URL,
@@ -19,6 +20,12 @@ export default {
     DB_PORT: process.env.DB_PORT,
     DB_PW: process.env.DB_PW,
     DB: process.env.DB,
+
+    DEV_DB_HOST: process.env.DEV_DB_HOST,
+    DEV_DB_USER: process.env.DEV_DB_USER,
+    DEV_DB_PORT: process.env.DEV_DB_PORT,
+    DEV_DB_PW: process.env.DEV_DB_PW,
+    DEV_DB: process.env.DEV_DB,
     //  API config
     api: {
         prefix: "api",

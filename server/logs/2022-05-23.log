@@ -1,0 +1,362 @@
+2022-05-23 01:37:07 [express] info: ✌️ Express loaded
+2022-05-23 01:37:07 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:43:08 [express] error: uncaughtException: admin is not defined
+ReferenceError: admin is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:43:13 [express] error: uncaughtException: admin is not defined
+ReferenceError: admin is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:45)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:43:24 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:43:48 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:44:18 [express] error: uncaughtException: validation is not defined
+ReferenceError: validation is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:44:19 [express] error: uncaughtException: validation is not defined
+ReferenceError: validation is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:21)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:44:23 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:44:43 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:44:45 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:45:12 [express] info: ✌️ Express loaded
+2022-05-23 22:45:12 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:45:15 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:45:30 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:45:37 [express] info: ✌️ Express loaded
+2022-05-23 22:45:37 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:45:41 [express] info: ✌️ Express loaded
+2022-05-23 22:45:41 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:46:34 [express] info: ✌️ Express loaded
+2022-05-23 22:46:34 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:46:39 [express] info: ✌️ Express loaded
+2022-05-23 22:46:39 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:46:49 [express] info: ✌️ Express loaded
+2022-05-23 22:46:49 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:47:02 [express] info: ✌️ Express loaded
+2022-05-23 22:47:02 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:51:59 [express] info: ✌️ Express loaded
+2022-05-23 22:51:59 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:52:01 [express] error: uncaughtException: eg_name is not defined
+ReferenceError: eg_name is not defined
+    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:34:34)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)
+2022-05-23 22:53:02 [express] info: ✌️ Express loaded
+2022-05-23 22:53:02 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:53:06 [express] error: uncaughtException: eg_name is not defined
+ReferenceError: eg_name is not defined
+    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:35:34)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:47:12)
+2022-05-23 22:53:27 [express] info: ✌️ Express loaded
+2022-05-23 22:53:27 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:53:37 [express] info: ✌️ Express loaded
+2022-05-23 22:53:37 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:53:39 [express] error: uncaughtException: memberService is not defined
+ReferenceError: memberService is not defined
+    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+2022-05-23 22:53:45 [express] info: ✌️ Express loaded
+2022-05-23 22:53:45 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:53:47 [express] error: uncaughtException: memberService is not defined
+ReferenceError: memberService is not defined
+    at creatMember (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberController.js:20:37)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at creatMemberValidataion (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/validation/memberVaildation.js:58:5)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:346:12)
+2022-05-23 22:54:21 [express] info: ✌️ Express loaded
+2022-05-23 22:54:21 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:54:51 [express] info: ✌️ Express loaded
+2022-05-23 22:54:51 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:54:55 [express] info: ✌️ Express loaded
+2022-05-23 22:54:55 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:54:57 [express] info: ✌️ Express loaded
+2022-05-23 22:54:57 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:55:00 [express] error: App - creatMember Service error
+ : Cannot add or update a child row: a foreign key constraint fails (`IBDA_DEV`.`member`, CONSTRAINT `FK_Member_roleIdx_role_roleIdx` FOREIGN KEY (`roleIdx`) REFERENCES `role` (`roleIdx`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+2022-05-23 22:57:11 [express] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/denovo/Desktop/project/ibda/server/node_modules/express/lib/router/index.js:521:19)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:13:11)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+2022-05-23 22:57:13 [express] error: uncaughtException: adminController is not defined
+ReferenceError: adminController is not defined
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberRoute.admin.js:16:9)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/src/app/adminRoute.js:20:5)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/express.js:26:53)
+    at default (file:///Users/denovo/Desktop/project/ibda/server/config/loader.js:5:5)
+    at file:///Users/denovo/Desktop/project/ibda/server/server.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:57:20 [express] info: ✌️ Express loaded
+2022-05-23 22:57:20 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:57:50 [express] error: uncaughtException: adminService is not defined
+ReferenceError: adminService is not defined
+    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:57:54 [express] error: uncaughtException: adminService is not defined
+ReferenceError: adminService is not defined
+    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:57:57 [express] error: uncaughtException: apiService is not defined
+ReferenceError: apiService is not defined
+    at file:///Users/denovo/Desktop/project/ibda/server/src/app/Member/memberService.js:30:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:197:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:341:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-05-23 22:57:58 [express] info: ✌️ Express loaded
+2022-05-23 22:57:58 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:58:01 [express] info: ✌️ Express loaded
+2022-05-23 22:58:01 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:58:24 [express] info: ✌️ Express loaded
+2022-05-23 22:58:24 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
+2022-05-23 22:59:14 [express] info: ✌️ Express loaded
+2022-05-23 22:59:14 [express] info: 
+    #####################IBDA#######################
+    🛡️  Server listening on port: 4000 🛡️
+    ################################################
+    
