@@ -11,9 +11,14 @@ const regexEgName = /^[a-zA-Z\s]+$/;
     eg_name { empty, lenght, typeError}
     
 */
-
+//MiddleWare
 const creatMemberValidation = async function (req, res, next) {
     const newMember = req.body.newMember;
+    if (!newMember) {
+        return res.send(
+            errResponse(baseRsponseStatus.BODY_PROPERTY_NAME_ERREOR)
+        );
+    }
     console.log(newMember);
     /* 
     name
@@ -66,14 +71,20 @@ const creatMemberValidation = async function (req, res, next) {
     
 */
 const editMemeberValidation = async function (req, res, next) {
-    const editMemberInfo = req.body.member;
+    const editMemberInfo = req.body.editMemberInfo;
+    if (!editMemberInfo) {
+        return res.send(
+            errResponse(baseRsponseStatus.BODY_PROPERTY_NAME_ERREOR)
+        );
+    }
     if (req.params.memberIdx === 1) {
         return res.send(errResponse(baseRsponseStatus.MEMBER_CANNOT_MODIFEIED));
     }
+
     if (editMemberInfo.name) {
-        if (newMember.name.length < 3) {
+        if (editMemberInfo.name.length < 3) {
             return res.send(errResponse(baseRsponseStatus.MEMBER_NAME_LENGTH));
-        } else if (!regexName.test(newMember.name)) {
+        } else if (!regexName.test(editMemberInfo.name)) {
             return res.send(
                 errResponse(baseRsponseStatus.MEMBER_NAME_TYPEERROR)
             );
@@ -81,15 +92,21 @@ const editMemeberValidation = async function (req, res, next) {
     }
 
     if (editMemberInfo.eg_name) {
-        if (newMember.eg_name.length < 4) {
+        if (editMemberInfo.eg_name.length < 4) {
             return res.send(
                 errResponse(baseRsponseStatus.MEMBER_EG_NAME_LENGTH)
             );
-        } else if (!regexEgName.test(newMember.eg_name)) {
+        } else if (!regexEgName.test(editMemberInfo.eg_name)) {
             return res.send(
                 errResponse(baseRsponseStatus.MEMBER_EG_NAME_TYPEERROR)
             );
         }
+    }
+
+    //status 있으면 안됨.
+
+    if (editMemberInfo.status) {
+        return res.send(errResponse(baseRsponseStatus.MEMBER_CANT_EDIT_STATUS));
     }
     if (editMemberInfo.roleIdx) {
     }
@@ -107,7 +124,33 @@ const editMemeberValidation = async function (req, res, next) {
     next();
 };
 
+const selectMemberIdxValidation = async function (req, res, next) {
+    const memberIdx = req.params.memberIdx;
+    if (!memberIdx) {
+        return res.send(errResponse(baseRsponseStatus.MEMBER_MBMBERIDX_EMPTY));
+    } else if (memberIdx < 1) {
+        return res.send(errResponse(baseRsponseStatus.MEMBER_MBMBERIDX_ERROR));
+    }
+    next();
+};
+
+//nonMiddleWare
+const changeMemberstatusValidation = async function (req, res, next) {
+    const status = req.body.status;
+
+    if (!status) {
+        return res.send(errResponse(baseRsponseStatus.MEMBER_STATUS_EMPTY));
+    } else if (
+        !(status === "ACTIVE" || status === "INACTIVED" || status == "DELETED")
+    ) {
+        return res.send(errResponse(baseRsponseStatus.MEMBER_STATUS_TYPEERROR));
+    }
+};
+
 export default {
-    creatMemberValidation,
-    editMemeberValidation,
+    middleWare: {
+        creatMemberValidation,
+        editMemeberValidation,
+        selectMemberIdxValidation,
+    },
 };

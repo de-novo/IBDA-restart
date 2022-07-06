@@ -18,6 +18,11 @@ export default {
         code: 1001,
         message: "JWT 토큰 검증 성공",
     }, // ?
+    BODY_PROPERTY_NAME_ERREOR: {
+        isSuccess: false,
+        code: 2999,
+        message: "요청 객체 이름을 확인해주세요",
+    },
 
     //Request error
 
@@ -34,7 +39,7 @@ export default {
     MEMBER_NAME_TYPEERROR: {
         isSuccess: false,
         code: 2003,
-        message: "한글로 입력해주세요.",
+        message: "이름은 한글로 입력해주세요.",
     },
 
     MEMBER_EG_NAME_EMPTY: {
@@ -62,28 +67,58 @@ export default {
         code: 2008,
         message: "멤버의 가입년도를 입력해주세요",
     },
+    MEMBER_MBMBERIDX_NOT_EXIST: {
+        isSuccess: false,
+        code: 2009,
+        message: "존재하지 않는 멤버입니다. 다시 확인해주세요.",
+    },
+    MEMBER_MBMBERIDX_ERROR: {
+        isSuccess: false,
+        code: 2010,
+        message: "1이상의 memberIdx를 입력해주세요. ",
+    },
+    MEMBER_MBMBERIDX_EMPTY: {
+        isSuccess: false,
+        code: 2011,
+        message: "memberIdx를 입력해주세요. ",
+    },
+    MEMBER_CANT_EDIT_STATUS: {
+        isSuccess: false,
+        code: 2014,
+        message: "멤버 정보 수정 API는 status값에 접근 불가능 합니다.",
+    },
+    MEMBER_STATUS_EMPTY: {
+        isSuccess: false,
+        code: 2013,
+        message: "status를 입력해주세요",
+    },
+    MEMBER_STATUS_TYPEERROR: {
+        isSuccess: false,
+        code: 2014,
+        message: "status값은 ACTIVE, INACTIVED, DELETED중 하나를 입력해주세요.",
+    },
 
     MEMBER_BIRTH_EMPTY: {
         isSuccess: false,
-        code: 2009,
+        code: 2019,
         message: "멤버의 생일을 입력해주세요",
     },
 
     MEMBER_CANNOT_MODIFEIED: {
         isSuccess: false,
-        code: 2999,
+        code: 2998,
         message: "수정불가한 멤버입니다. 개발자에게 문의해주세요",
     },
     // Response error
-    SIGNUP_REDUNDANT_EMAIL: {
+    MEMBER_INACTIVE_ACCOUNT: {
         isSuccess: false,
         code: 3001,
-        message: "중복된 이메일입니다.",
+        message: "비활성화된 멤버입니다. 활성화후 시도해주세요.",
     },
-    SIGNUP_REDUNDANT_NICKNAME: {
+    MEMBER_DELETED_ACCOUNT: {
         isSuccess: false,
         code: 3002,
-        message: "중복된 닉네임입니다.",
+        message: "삭제된 멤버입니다. 복구를 원할시 개발자에게 문의하세요",
     },
 
     SIGNIN_EMAIL_WRONG: {

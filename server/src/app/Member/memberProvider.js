@@ -1,12 +1,27 @@
 import { errResponse, response } from "../../../config/response.js";
 import baseRsponseStatus from "../../../config/baseRsponseStatus.js";
 
-import { pool } from "../../../../../udemy_study/udemy_server_practice_nodejs/config/database.js";
-import memberDao from "./memberDao";
+import { pool } from "../../../config/database.js";
+import memberDao from "./memberDao.js";
 
-export const retrieveMemberList = async function (props) {
-    const connection = await pool.getConnection(async (conn) => conn);
-    if (!props) {
-        const memberListResult = await memberDao.selectMember(connection);
-    }
+const admin = {
+    retrieveMemberList: async function (props) {
+        const connection = await pool.getConnection(async (conn) => conn);
+
+        try {
+            const memberListResult = await memberDao.admin.selectMember(
+                connection,
+                props
+            );
+            connection.release();
+
+            return memberListResult;
+        } catch (err) {
+            console.log(err.message);
+        }
+    },
+};
+
+export default {
+    admin,
 };

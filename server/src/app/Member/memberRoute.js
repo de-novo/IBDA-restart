@@ -8,7 +8,7 @@ export default (app) => {
     //get refreshToken 이용하여 accessToken  발급
     // refreshToken  없으면 강제로그아웃
     // accessToken 유효하지않으면 -> err
-    route.get("/", (req, res) => {
-        return res.status(200).json({ hi: req.vhost });
-    });
+    // route.get("/", (req, res) => {
+    //     return res.status(200).json({ hi: req.vhost });
+    // });
 };
